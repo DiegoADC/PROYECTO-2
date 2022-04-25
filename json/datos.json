@@ -52,5 +52,11 @@
         "id": 9,
         "model": "Yummi miel",
         "img": "./img/yummimiel.jpg"
+    },
+    {
+        "price" : 1450,
+        "id": 9,
+        "model": "Teemo abeja",
+        "img": "./img/teemo-abeja.jpg"
     }
 ]
