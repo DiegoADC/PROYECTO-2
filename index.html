@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap" rel="stylesheet">
+    <title>Seleccion de articulos</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="h-content-img"><img src="./img/logo-raw.png" alt=""></div>
+            <div class="h-content-title">Selecciona tus articulos</div>
+        </div>
+    </header>
+
+    <section class="section">
+
+        <div class="section-container-cards" id="cards"></div>
+
+        <template id="template-card">
+            <div class="sec-cards-articles">
+                <img src="" alt="" class="sca-img">
+                <div class="s-ca-text" src="">
+                    <img src="" alt="" class="sca-img-data" style="display: none;">
+                    <h3 class="sca-text-price">$<span class="scat-price-js"></span>MXN</h3>
+                    <p class="sca-text-name"></p>
+                    <button type="submit" class="button" data-id="0">AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+        </template> 
+
+        
+        <div class="s-shopping">
+
+            <div class="s-shopping-title">
+                <div class="ss-title-contain">
+                    <div>Carrito</div>
+                </div>
+            </div>
+
+            <div class="s-shopping-articles" id="items">
+            
+                <div id="fshopping">
+                    <div class="ss-articles-text">
+                        <div class="ssa-text-title ssa-text-title">Tu carrito está vacío</div>
+                        <div class="ssa-text-title ssa-text-sub_title">¡Los mejores productos tecnológicos te esperan! </div>
+                    </div>
+                    <template id="template-cart">
+                        <div class="ss-articles-add">
+                            <div class="ss-articles-add-container">
+                                <img src="./img/1080titgnv.jpg" class="articles-add-img">
+                                <div class="articles-add-title">Tarjeta gráfica 2060</div>
+                                <div class="articles-add-count">
+                                    <button class="aaddc-count-aggregate aggregate-reduce" data-id="1">-</button>
+                                    <div class="aaddc-count-current">1</div>
+                                    <button class="aaddc-count-aggregate aggregate-more" data-id="2">+</button>
+                                </div>
+                                <div class="articles-add-price">$<span class="aa-price-js"></span>MXN</div>
+                            </div>
+                        </div>
+                    </template>
+
+                </div>
+
+            </div>
+            <div class="s-shopping-articles" id="shopping-footer">
+                <template id="template-fcart">
+                    <div class="ss-articles-footer">
+                        <div class="ssa-footer-container">
+                            <div class="ssafc-text-contain">
+                                <div class="ssafc-text">Total de productos</div>
+                                <div class="ssafc-text ssafc-text-price">$<span class="ssafct-price-js"></span>MXN</div>
+                            </div>
+                            <div class="ssafc-text-clean">
+                                <button id="shopping-clean">Vaciar Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+
+
+
+           
+
+            
+        </div>
+    </section>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

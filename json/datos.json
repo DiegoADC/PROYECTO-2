@@ -1,0 +1,50 @@
+[
+    {
+        "price": 17000,
+        "id": 1,
+        "model": "Tarjeta gráfica 2060",
+        "img": "./img/2060tgnv.jpg"
+    },
+    {
+        "price": 12000,
+        "id": 2,
+        "model": "Tarjeta gráfica 1660",
+        "img": "./img/1660tjnv.jpg"
+    },
+    {
+        "price": 15000,
+        "id": 3,
+        "model": "Tarjeta gráfica 1080",
+        "img": "./img/1080titgnv.jpg"
+    },
+    {
+        "price": 19000,
+        "id": 4,
+        "model": "Tarjeta gráfica 3060",
+        "img": "./img/3060tgnv.jpg"
+    },
+    {
+        "price" : 17000,
+        "id": 5,
+        "model": "Tarjeta gráfica 3050",
+        "img": "./img/3050tgnv.jpg"
+    },
+    {
+        "price" : 33000,
+        "id": 6,
+        "model": "Tarjeta gráfica 2080ti",
+        "img": "./img/2080titgnv.jpg"
+    },
+    {
+        "price" : 22000,
+        "id": 7,
+        "model": "Tarjeta gráfica 3060",
+        "img": "./img/3090tgnv.jpg"
+    },
+    {
+        "price" : 42000,
+        "id": 8,
+        "model": "Tarjeta gráfica 3080 ti",
+        "img": "./img/3080titgnv.jpg"
+    }
+]

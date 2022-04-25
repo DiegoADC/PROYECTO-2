@@ -1,0 +1,287 @@
+/* header */
+.header {
+    width: 100%;
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(16, 89, 163);
+}
+
+.header-content {
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.h-content-title {
+    color: rgb(212, 212, 212);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 27px;
+    margin-left: 25px;
+    min-width: 170px;
+}
+
+.h-content-img img {
+    max-width: 170px;
+}
+
+
+
+/* section */
+
+.section {
+    display: flex;
+    justify-content: center;
+    background-color: #f3f3f3;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+/* articles cards container */
+
+.section-container-cards {
+    margin-top: 60px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+}
+
+/* articles cards */
+
+.sec-cards-articles {
+    min-width: 200px;
+    height: 280px;
+    margin: 0px 10px 25px;
+    background-color: #fff;
+}
+
+.sec-cards-articles img {
+    height: 50%;
+    width: 100%;
+    object-fit: contain;
+    margin-top: 5px;
+}
+
+.s-ca-text {
+    padding: 20px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sca-text-price {
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.sca-text-name {
+    color: #555;
+}
+
+.s-ca-text button {
+    background-color: #3cc38bfd;
+    border: none;
+    font-size: 12px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.s-ca-text button:hover{
+    background-color: #41dd9cfd;
+}
+
+/* Shopping */
+
+.s-shopping {
+    width: 90%;
+    margin-top: 50px;
+    background-color: #fff;
+    padding-bottom: 80px;
+}
+
+.s-shopping-title {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.ss-title-contain {
+    width: 90%;
+    border-bottom: 1px solid #dadada;
+    display: flex;
+    align-items: flex-end;
+}
+
+.ss-title-contain div {
+    width: 220px;
+    height: 35px;
+    border-bottom: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+/* Shopping Cart  */
+
+.s-shopping-articles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Shopping Cart clean */
+
+.ss-articles-text {
+    width: 90%;
+    padding-top: 50px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ssa-text-title{
+    width: 90%;
+    height: 50px;
+    font-weight: 100;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.ssa-text-title{
+    font-size: 38px;
+    align-items: flex-end;
+    
+}
+
+.ssa-text-sub_title{
+    font-size: 20px;
+    align-items: flex-start;
+}
+
+/* Shopping Cart Articles */
+
+.ss-articles-add{
+    width: 90%;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dadada;
+}
+
+.ss-articles-add-container{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles-add-img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.articles-add-title{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.articles-add-count{
+    height: 45px;
+    width: 120px;
+    display: flex;
+    border-radius: 2px;
+    outline: 1px solid #dadada;
+}
+
+.aaddc-count-aggregate {
+    width: 30%;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #3483fa;
+
+}
+
+.aaddc-count-current{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.articles-add-price{
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Shopping Cart Footer */
+
+.ss-articles-footer{
+    width: 90%;
+    height: 170px;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #dadada;
+}
+
+.ssa-footer-container{
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ssafc-text-contain {
+    width: 100%;
+    display: flex;
+}
+
+.ssafc-text {
+    width: 50%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.ssafc-text-price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ssafc-text-clean button {
+    font-size: 12px;
+    font-weight: 600;
+    color: #3483fa;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+/* Media Query's */
+
+@media only screen and (max-width: 400px) {
+    .header-content {
+        width: 95%;
+    }
+
+	.h-content-title {
+        min-width: 160px;
+        margin-left: 0px;
+    }
+}
