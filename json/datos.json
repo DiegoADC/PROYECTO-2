@@ -1,50 +1,56 @@
 [
     {
-        "price": 17000,
+        "price": 11520,
         "id": 1,
-        "model": "Tarjeta gráfica 2060",
-        "img": "./img/2060tgnv.jpg"
+        "model": "AMD Ryzen 9 5900X",
+        "img": "./img/ryzen5900.jpg"
     },
     {
-        "price": 12000,
+        "price": 2216,
         "id": 2,
-        "model": "Tarjeta gráfica 1660",
-        "img": "./img/1660tjnv.jpg"
+        "model": "Corsair Vengeance RGB Pro DDR4 3200",
+        "img": "./img/RGBProDDR43200.jpg"
     },
     {
-        "price": 15000,
+        "price": 1000,
         "id": 3,
-        "model": "Tarjeta gráfica 1080",
-        "img": "./img/1080titgnv.jpg"
+        "model": "Cooler Master Hyper 212 RGB Black Edition",
+        "img": "./img/Hyper212RGBBlackEdition.jpg"
     },
     {
-        "price": 19000,
+        "price": 10900,
         "id": 4,
-        "model": "Tarjeta gráfica 3060",
-        "img": "./img/3060tgnv.jpg"
+        "model": "Asus ROG CROSSHAIR VIII DARK HERO",
+        "img": "./img/AsusROGCROSSHAIRVIIDARKHERO.jpg"
     },
     {
-        "price" : 17000,
+        "price" : 4800,
         "id": 5,
-        "model": "Tarjeta gráfica 3050",
-        "img": "./img/3050tgnv.jpg"
+        "model": "Samsung 980 Pro SSD 1TB PCIe4 NVMe M.2",
+        "img": "./img/1TBPCIe4NVMeM.2.jpg"
     },
     {
-        "price" : 33000,
+        "price" : 4500,
         "id": 6,
-        "model": "Tarjeta gráfica 2080ti",
-        "img": "./img/2080titgnv.jpg"
+        "model": "Be Quiet! Straight Power 11 Platinum 1000W",
+        "img": "./img/BeQuiet!StraightPower11.jpg"
     },
     {
-        "price" : 22000,
+        "price" : 50000,
         "id": 7,
-        "model": "Tarjeta gráfica 3060",
+        "model": "Tarjeta gráfica 3090",
         "img": "./img/3090tgnv.jpg"
     },
     {
-        "price" : 42000,
+        "price" : 2900,
         "id": 8,
-        "model": "Tarjeta gráfica 3080 ti",
-        "img": "./img/3080titgnv.jpg"
+        "model": "Corsair ICUE 4000X RGB Cristal Templado",
+        "img": "./img/4000XRGBCristalTemplado.jpg"
+    },
+    {
+        "price" : 1450,
+        "id": 9,
+        "model": "Yummi miel",
+        "img": "./img/yummimiel.jpg"
     }
 ]
