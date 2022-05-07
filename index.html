@@ -7,23 +7,25 @@
     <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/Style.css">
+    <!-- Foont Awesome (icons) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Fonts styles -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap" rel="stylesheet">
     <title>Seleccion de articulos</title>
 </head>
 <body>
+    <!-- Header -->
     <header class="header">
         <div class="header-content">
             <div class="h-content-img"><img src="./img/logo-raw.png" alt=""></div>
             <div class="h-content-title">Selecciona tus articulos</div>
         </div>
     </header>
-
+    <!-- Section -->
     <section class="section">
-
         <div class="section-container-cards" id="cards"></div>
-
+        <!-- template Cards -->
         <template id="template-card">
             <div class="sec-cards-articles">
                 <img src="" alt="" class="sca-img">
@@ -34,24 +36,23 @@
                     <button type="submit" class="button" data-id="0">AGREGAR AL CARRITO</button>
                 </div>
             </div>
-        </template> 
-
-        
+        </template>   
+        <!-- Shopping -->
         <div class="s-shopping">
-
+            <!-- Header Shopping -->
             <div class="s-shopping-title">
                 <div class="ss-title-contain">
                     <div>Carrito</div>
                 </div>
             </div>
-
+            <!-- Body Shopping -->
             <div class="s-shopping-articles" id="items">
-            
                 <div id="fshopping">
                     <div class="ss-articles-text">
                         <div class="ssa-text-title ssa-text-title">Tu carrito está vacío</div>
                         <div class="ssa-text-title ssa-text-sub_title">¡Los mejores productos tecnológicos te esperan! </div>
                     </div>
+                    <!-- Template Cart articles add-->
                     <template id="template-cart">
                         <div class="ss-articles-add">
                             <div class="ss-articles-add-container">
@@ -66,11 +67,10 @@
                             </div>
                         </div>
                     </template>
-
                 </div>
-
             </div>
             <div class="s-shopping-articles" id="shopping-footer">
+                <!-- Template Footer Cart Total -->
                 <template id="template-fcart">
                     <div class="ss-articles-footer">
                         <div class="ssa-footer-container">
@@ -85,15 +85,35 @@
                     </div>
                 </template>
             </div>
-
-
-
-           
-
-            
         </div>
     </section>
-
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="footer-left-container">
+                    <div class="f-title f-l-title">ACERCA DE NOSOTROS</div>
+                    <div class="f-l-description f-description">Somos una empresa establecida con más de 22 Días en la venta de productos en línea con miles de clientes satisfechos, todos nuestros pagos con tarjeta son por medio de plataformas seguras como PayPal y Mercado Pago.</div>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-right-container">
+                    <div class="f-title f-r-title">SÍGUENOS EN NUESTRAS REDES</div>
+                    <div class="f-r-logos">
+                        <!-- Footer Icons Liks -->
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <div class="f-description f-r-description">
+                        <p>RAW S.L. 2022</p>
+                        <p>Todos los derechos resevados</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="./scripts/script.js"></script>
 </body>
 </html>
